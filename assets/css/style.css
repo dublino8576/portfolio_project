@@ -23,6 +23,12 @@ h2 {
   font-family: "DM Serif Display", serif;
   color: #184f63;
 }
+
+.sharp-corners,
+.sharp-corners * {
+  border-radius: 0;
+}
+
 /* Footer section */
 #hero {
   background: url("/assets/images/background.webp") no-repeat 50% 70%;
