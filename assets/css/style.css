@@ -29,6 +29,19 @@ h2 {
   border-radius: 0;
 }
 
+#hero .sharp-corners,
+#contact .sharp-corners .btn,
+#exampleModal .btn {
+  background-color: #0000cd;
+  border: 0;
+}
+
+#hero .sharp-corners:hover,
+#contact .sharp-corners .btn:hover,
+#exampleModal .btn:hover {
+  background-color: #1d6d8a;
+}
+
 /* Footer section */
 #hero {
   background: url("/assets/images/background.webp") no-repeat 50% 70%;
